@@ -1,2 +1,3 @@
 Hello_World in C
-1- output of a cfile in another file.
+0- output of a cfile in another file.
+1- compiler output
