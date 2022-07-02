@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Print string
  * Description: use printf
  * Return: 0
