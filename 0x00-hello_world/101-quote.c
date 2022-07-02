@@ -2,8 +2,10 @@
 
 /**
  * main - Entry Point
+ *
  * Description: Printing
- * Return: 0
+ *
+ * Return: 1
  */
 int main(void)
 {
@@ -12,11 +14,10 @@ int main(void)
 	long fd = 1;
 	long syscall = 1;
 	long ret = 0;
-	__asm__ ("syscall"
-		: "=a" (ret)
-		: "a" (syscall),
+	__asm__ ("syscall" : "=a" (ret) : "a" (syscall),
 		"D" (fd),
-		"S" (S),
+		"S" (s),
 		"d" (l));
+
 	return (1);
 }
