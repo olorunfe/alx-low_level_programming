@@ -1,22 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry
- * Description: lowercase without q and e
+ * Description: numbers
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char c = '0';
 
-	while (c <= 'z')
+	while (c <= '9')
 	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
+		putchar(c);
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
