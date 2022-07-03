@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -
- * Description: 
+ * main - Entry
+ * Description: comb
  * Return: 0
  */
 int main(void)
