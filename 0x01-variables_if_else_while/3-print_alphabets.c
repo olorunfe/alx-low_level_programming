@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - entry
- * Description: aaaaaalphabets in lower and upper case
+ * Description: alphabets in lower and upper case
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	char c = 'a';
 
 	while (c <= 'z')
-	{ 
+	{
 		putchar(c);
 		c++;
 	}
@@ -20,6 +20,8 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	putchar('\n');
+	/*
+	 * putchar('\n');
+	 */
 	return (0);
 }
