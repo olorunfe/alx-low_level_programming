@@ -4,12 +4,10 @@
  * main - multiply
  * @a: first integer
  * @b: second number
- * result: the resultant
- * Return: result
+ * Return: a *b
  */
 
 int mul(int a, int b)
 {
-	int result = a * b;
-	return (result);
+	return (a * b);
 }
