@@ -2,7 +2,8 @@
 
 /**
  * more_numbers - prints a set of numbers 10 times
- *
+ * @c: variable
+ * @i: looping variable
  * Return: void
  */
 
