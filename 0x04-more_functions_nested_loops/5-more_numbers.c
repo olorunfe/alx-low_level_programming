@@ -2,17 +2,27 @@
 
 /**
  * more_numbers - prints a set of numbers 10 times
- * @c: variable
- * @i: looping variable
+ * @a: variable
+ * @b: looping variable
  * Return: void
  */
 
 void more_numbers(void)
 {
-	char c;
-	int i = 0;
-	for (c = '0'; c <= '14'; c++)
-		if (i < 10; i++)
-			_putchar(c);
-	_putchar('\n');
+	int a, b;
+
+	b = 0;
+	while (b < 10)
+	{
+		a = 0;
+		while (a < 15)
+		{
+			if (a > 9)
+				_putchar(a / 10 + '0');
+			_putchar(a % 10 + '0');
+			a++;
+		}
+		_putchar('\n');
+		b++;
+	}
 }
