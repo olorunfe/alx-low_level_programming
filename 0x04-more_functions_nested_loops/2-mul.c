@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - multiply
+ * mul - multiply
  * @a: first integer
  * @b: second number
- * Return: a *b
+ * Return: multiplication of a and b
  */
 
 int mul(int a, int b)
